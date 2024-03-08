@@ -1,5 +1,6 @@
 const hre = require("hardhat");
 const { ethers, run, network } = require("hardhat");
+require("dotenv").config();
 
 async function main() {
   console.log("Deploying contract...");
